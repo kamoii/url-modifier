@@ -1,0 +1,4 @@
+#!/bin/bash -xe
+
+nix-exec nix-build release.nix
+ls result/bin
